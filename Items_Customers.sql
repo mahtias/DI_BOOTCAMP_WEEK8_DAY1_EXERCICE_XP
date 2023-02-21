@@ -24,6 +24,7 @@ CREATE TABLE customers (
     last_name VARCHAR(255) NOT NULL
 );
 
+
 /* 4. Insert the following data into the items table:
     - Petit bureau, 100
     - Grand bureau, 300
@@ -53,7 +54,7 @@ SELECT * FROM items WHERE price <= 300;
 SELECT * FROM customers WHERE last_name = 'Smith';
 
 /* 10. Select all the data from the customers table where the first name is not 'Jones'. */
-SELECT * FROM customers WHERE last_name = 'Jones';
+ SELECT * FROM customers WHERE last_name = 'Jones';
 
 /* 11. Select all the data from the customers table where the first name is not 'Scott'. */
 SELECT * FROM customers WHERE first_name != 'Scott';
